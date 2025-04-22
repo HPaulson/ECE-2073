@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUTP",
+					"strict" : false
+				},
+				{
+					"name" : "INP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "INP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CNTL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CNTL[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+# SW[2..0] = Cin, A, B
+#
+set_location_assignment PIN_AB28 -to Cin
+set_location_assignment PIN_Y27  -to A
+set_location_assignment PIN_AB30 -to B
+#
+# LEDR[1..0] = Cout, Sum
+#
+set_location_assignment PIN_AB23 -to Cout
+set_location_assignment PIN_AA24 -to Sum
+#
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Cin
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Cout
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Sum

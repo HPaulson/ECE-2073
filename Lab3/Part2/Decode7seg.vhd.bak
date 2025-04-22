@@ -1,0 +1,33 @@
+-- Decode7seg.vhd 
+-- Template for ECE 2043 Lab3, Part2
+-- This implements a 7-Segment Decoder: the behavior way
+-- Assume the 7-segment displays are active low 
+-- Engineer: 
+-- Feb. 2022
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Decode7seg is
+port( SW   : in  bit_vector(3 downto 0);  -- 4-bit Switch input defining the binary number to display
+      LEDR : out bit_vector(3 downto 0);  -- 4-bit LED outputs to echo the state of the switches
+      HEX0 : out bit_vector(0 to 6) );    -- 7-bit bit-pattern controlling the LEDs' of the 7 Seg display
+end;
+
+architecture Decode7segA of Decode7seg is
+begin
+   LEDR <= SW; -- Echo the status of the switch inputs to the LED outputs 
+-- 
+-- Work out the behavior of 7-segment decoder below
+-- Replace x and y with approriate signals/code
+-- Add lines for the binary codes to diaplay 1-F on HEX0; one line for each pair
+-- Refer to your Lab 2.1 truth table for the codes
+-- End the last line (for displaying F) with a semicolon. 
+   
+   with x select
+   y<= 	"0000001" when "0000",     	-- to display the value 0
+        
+		    -- etc
+        
+
+end architecture Decode7segA;

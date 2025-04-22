@@ -1,0 +1,10 @@
+|SRflipFlop
+Y <= nnhinst7.DB_MAX_OUTPUT_PORT_TYPE
+M => nnhinst7.IN0
+Cp => 38425.IN0
+S => kkujmk.IN1
+R => kufkfkyu.IN0
+N => jfjtyjcjy.IN2
+YPrime <= jfjtyjcjy.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,27 @@
+# ECE 2043 Lab3P1 on DE10
+# SW[9..8] = Cntl[1..0]
+#
+set_location_assignment PIN_AC29 -to CNTL[0]
+set_location_assignment PIN_AA30 -to CNTL[1]
+#
+# SW[3..0] = Inp[3..0]
+#
+set_location_assignment PIN_AB30 -to INP[0]
+set_location_assignment PIN_Y27 -to INP[1]
+set_location_assignment PIN_AB28 -to INP[2]
+set_location_assignment PIN_AC30 -to INP[3]
+#
+# LEDR[0] = Outp
+#
+set_location_assignment PIN_AA24 -to OUTP
+#
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CNTL[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CNTL[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to INP[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to INP[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to INP[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to INP[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to OUTP
+
+
+

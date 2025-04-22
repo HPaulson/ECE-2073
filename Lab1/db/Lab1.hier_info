@@ -1,0 +1,76 @@
+|TestAdder
+LEDR[0] <= Add4bit:inst.Sum[0]
+LEDR[1] <= Add4bit:inst.Sum[1]
+LEDR[2] <= Add4bit:inst.Sum[2]
+LEDR[3] <= Add4bit:inst.Sum[3]
+LEDR[4] <= Add4bit:inst.pin_name4
+SW[0] => Add4bit:inst.A[0]
+SW[1] => Add4bit:inst.A[1]
+SW[2] => Add4bit:inst.A[2]
+SW[3] => Add4bit:inst.A[3]
+SW[4] => Add4bit:inst.B[0]
+SW[5] => Add4bit:inst.B[1]
+SW[6] => Add4bit:inst.B[2]
+SW[7] => Add4bit:inst.B[3]
+
+
+|TestAdder|Add4bit:inst
+pin_name4 <= Add1Bit:inst.Cout
+A[0] => Add1Bit:inst3.A
+A[1] => Add1Bit:inst2.A
+A[2] => Add1Bit:inst1.A
+A[3] => Add1Bit:inst.A
+B[0] => Add1Bit:inst3.B
+B[1] => Add1Bit:inst2.B
+B[2] => Add1Bit:inst1.B
+B[3] => Add1Bit:inst.B
+Sum[0] <= Add1Bit:inst3.Sum
+Sum[1] <= Add1Bit:inst2.Sum
+Sum[2] <= Add1Bit:inst1.Sum
+Sum[3] <= Add1Bit:inst.Sum
+
+
+|TestAdder|Add4bit:inst|Add1Bit:inst
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:inst|Add1Bit:inst1
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:inst|Add1Bit:inst2
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:inst|Add1Bit:inst3
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

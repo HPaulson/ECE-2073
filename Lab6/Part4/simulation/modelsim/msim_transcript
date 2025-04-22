@@ -1,0 +1,74 @@
+# Reading pref.tcl
+# do Lab6P2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {H:/ECE2173/Lab6/Part2/TrafficControl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:17:12 on Apr 15,2025
+# vcom -reportprogress 300 -93 -work work H:/ECE2173/Lab6/Part2/TrafficControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TrafficControl
+# -- Compiling architecture behav of TrafficControl
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(64): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(66): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(68): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(70): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(72): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(74): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(76): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(78): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(80): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(82): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(84): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(86): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(88): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(90): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(92): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: H:/ECE2173/Lab6/Part2/TrafficControl.vhd(94): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 10:17:13 on Apr 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 16
+# 
+vsim -gui -l msim_transcript work.trafficcontrol
+# vsim -gui -l msim_transcript work.trafficcontrol 
+# Start time: 10:17:20 on Apr 15,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.trafficcontrol(behav)
+do ../../Lab6P1.do
+# Cannot open macro file: ../../Lab6P1.do
+../../do Lab6P2.do
+# invalid command name "../../do"
+do ../../Lab6P2.do
+# ** UI-Msg (suppressible): (vsim-4008) Object 'clock' not found.
+# Error in macro ./../../Lab6P2.do line 2
+# ** UI-Msg (suppressible): (vsim-4008) Object 'clock' not found.
+# 
+#     while executing
+# "force clock 0 0 ns, 1 10 ns -repeat 20 ns"
+vsim -gui -l msim_transcript work.trafficcontrol
+# End time: 10:17:59 on Apr 15,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.trafficcontrol 
+# Start time: 10:18:00 on Apr 15,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.trafficcontrol(behav)
+add wave -position end  sim:/trafficcontrol/Q
+do ../../Lab6P2.do
+add wave -position end  sim:/trafficcontrol/clock
+add wave -position end  sim:/trafficcontrol/clock
+add wave -position end  sim:/trafficcontrol/lights
+# End time: 10:19:03 on Apr 15,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0

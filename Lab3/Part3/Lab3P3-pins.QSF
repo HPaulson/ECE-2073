@@ -1,0 +1,26 @@
+
+# DE10 board pins for the traffic lights in the lab
+set_location_assignment PIN_AG5	-to lights[0] #Right Green
+set_location_assignment PIN_AG3	-to lights[1] #Right Yellow
+set_location_assignment PIN_AG2	-to lights[2] #Right Red
+set_location_assignment PIN_AG1	-to lights[3] #Left Green
+set_location_assignment PIN_AH5	-to lights[4] #Left Yellow
+set_location_assignment PIN_AH4	-to lights[5] #Left Red
+
+set_location_assignment PIN_AK2 -to count[3] 
+set_location_assignment PIN_Y16 -to count[2]
+set_location_assignment PIN_AK3 -to count[1]
+set_location_assignment PIN_AJ1 -to count[0]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to lights[0]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to count[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to count[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to count[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to count[0]
+

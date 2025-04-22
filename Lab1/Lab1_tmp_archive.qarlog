@@ -1,0 +1,24 @@
+Quartus Prime Archive log --	H:/ECE2173/Lab1/Lab1_tmp_archive.qarlog
+
+Archive:	H:/ECE2173/Lab1/Lab1_tmp_archive.qar
+Date:		Tue Feb 11 09:30:38 2025
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+H:/ECE2173/Lab1/Add1Bit.bdf
+H:/ECE2173/Lab1/Add4bit.bdf
+H:/ECE2173/Lab1/Lab1.qpf
+H:/ECE2173/Lab1/Lab1.qsf
+H:/ECE2173/Lab1/Lab1_assignment_defaults.qdf
+H:/ECE2173/Lab1/TestAdder.bdf
+H:/ECE2173/Lab1/myFirstDesign.bdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Feb 11 09:30:40 2025
+Source archive file:	H:/ECE2173/Lab1/Lab1_tmp_archive.qar
+Archive was extracted into	H:/ECE2173/Lab2/
+		 - successfully.

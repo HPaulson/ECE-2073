@@ -1,0 +1,10 @@
+|Lab3P1
+INP[0] => Mux0.IN3
+INP[1] => Mux0.IN2
+INP[2] => Mux0.IN1
+INP[3] => Mux0.IN0
+CNTL[0] => Mux0.IN5
+CNTL[1] => Mux0.IN4
+OUTP << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

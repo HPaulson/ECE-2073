@@ -1,0 +1,14 @@
+|NANDOnly
+LEDR[0] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst06.IN0
+SW[0] => inst7.IN2
+SW[0] => inst4.IN2
+SW[1] => inst05.IN0
+SW[1] => inst8.IN1
+SW[1] => inst4.IN1
+SW[2] => inst6.IN0
+SW[2] => inst1.IN0
+SW[2] => inst4.IN0
+SW[3] => inst9.IN1
+
+

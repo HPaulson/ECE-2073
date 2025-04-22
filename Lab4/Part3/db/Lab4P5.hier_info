@@ -1,0 +1,15 @@
+|Lab4P3
+LEDR[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+SW4 => inst2.ACLR
+SW4 => inst.ACLR
+KEY[0] => inst6.IN0
+SW0 => inst9.IN1
+SW0 => inst5.IN2
+SW0 => inst14.IN0
+SW0 => inst13.IN1
+SW5 => inst.PRESET
+SW5 => inst2.PRESET
+
+

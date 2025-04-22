@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/ECE2173/Lab5/Part2/simulation/modelsim
+Emyfsm
+Z1 w1744123752
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8H:/ECE2173/Lab5/Part2/myFSM.vhd
+Z5 FH:/ECE2173/Lab5/Part2/myFSM.vhd
+l0
+L14 1
+V3zDK@JEo^4an657@=aRk^3
+!s100 Z0]@cJKhRAlY4HPNm`kV[3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1744123842
+!i10b 1
+Z8 !s108 1744123842.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|H:/ECE2173/Lab5/Part2/myFSM.vhd|
+!s107 H:/ECE2173/Lab5/Part2/myFSM.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 5 myfsm 0 22 3zDK@JEo^4an657@=aRk^3
+!i122 0
+l37
+L21 77
+V?GdYb6N[j0ZB=Azf3V3gA3
+!s100 =PoBW7chRTBiZ:>PVbe;J1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 H:/ECE2173/Lab5/Part2/myFSM.vhd|
+!i113 1
+R10
+R11

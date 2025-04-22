@@ -1,0 +1,265 @@
+|TestAdder
+HEX0[0] <= Lab2:inst.Fa_OUT
+HEX0[1] <= Lab2:inst.Fb_OUT
+HEX0[2] <= Lab2:inst.Fc_OUT
+HEX0[3] <= Lab2:inst.Fd_OUT
+HEX0[4] <= Lab2:inst.Fe_OUT
+HEX0[5] <= Lab2:inst.Ff_OUT
+HEX0[6] <= Lab2:inst.Fg_OUT
+SW[0] => Lab2:inst.D
+SW[0] => Add4bit:instadd4b.A[0]
+SW[1] => Lab2:inst.C
+SW[1] => Add4bit:instadd4b.A[1]
+SW[2] => Lab2:inst.B
+SW[2] => Add4bit:instadd4b.A[2]
+SW[3] => Lab2:inst.A
+SW[3] => Add4bit:instadd4b.A[3]
+SW[4] => Lab2:inst1.D
+SW[4] => Add4bit:instadd4b.B[0]
+SW[5] => Lab2:inst1.C
+SW[5] => Add4bit:instadd4b.B[1]
+SW[6] => Lab2:inst1.B
+SW[6] => Add4bit:instadd4b.B[2]
+SW[7] => Lab2:inst1.A
+SW[7] => Add4bit:instadd4b.B[3]
+HEX1[0] <= Lab2:inst1.Fa_OUT
+HEX1[1] <= Lab2:inst1.Fb_OUT
+HEX1[2] <= Lab2:inst1.Fc_OUT
+HEX1[3] <= Lab2:inst1.Fd_OUT
+HEX1[4] <= Lab2:inst1.Fe_OUT
+HEX1[5] <= Lab2:inst1.Ff_OUT
+HEX1[6] <= Lab2:inst1.Fg_OUT
+HEX2[0] <= Lab2:inst6.Fa_OUT
+HEX2[1] <= Lab2:inst6.Fb_OUT
+HEX2[2] <= Lab2:inst6.Fc_OUT
+HEX2[3] <= Lab2:inst6.Fd_OUT
+HEX2[4] <= Lab2:inst6.Fe_OUT
+HEX2[5] <= Lab2:inst6.Ff_OUT
+HEX2[6] <= Lab2:inst6.Fg_OUT
+
+
+|TestAdder|Lab2:inst
+Fa_OUT <= inst467.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => ins6789t.IN0
+A => instab.IN0
+A => insg902.IN0
+A => inst3891.IN0
+A => inst903.IN0
+A => inst291.IN0
+A => inst45410.IN0
+A => inst5445.IN0
+B => inst1.IN0
+B => inst456.IN0
+B => ins6789t.IN1
+B => inst6789.IN0
+B => insg93.IN1
+B => inst3891.IN1
+B => inst903.IN1
+B => inst291.IN1
+B => inst45410.IN1
+B => inst1515.IN0
+B => inst43tt.IN1
+B => inst115.IN1
+B => inst0.IN1
+C => inst5.IN0
+C => instab.IN2
+C => inst6789.IN1
+C => insg902.IN1
+C => inst291.IN2
+C => inst58309.IN2
+C => inst575641.IN2
+C => inst2154.IN1
+C => inst1515.IN1
+C => inst5445.IN2
+C => inst0.IN2
+D => inst9.IN3
+D => inst6.IN0
+D => instab.IN3
+D => insg902.IN2
+D => insg93.IN3
+D => inst54520.IN2
+D => inst2154.IN2
+D => ins55t.IN3
+D => inst1515.IN2
+D => inst44566.IN1
+D => inst787.IN2
+D => inst0.IN3
+Fb_OUT <= inst8482.DB_MAX_OUTPUT_PORT_TYPE
+Fc_OUT <= inst9301.DB_MAX_OUTPUT_PORT_TYPE
+Ff_OUT <= inst839.DB_MAX_OUTPUT_PORT_TYPE
+Fd_OUT <= inst2910.DB_MAX_OUTPUT_PORT_TYPE
+Fe_OUT <= inst90201.DB_MAX_OUTPUT_PORT_TYPE
+Fg_OUT <= inst88.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Lab2:inst1
+Fa_OUT <= inst467.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => ins6789t.IN0
+A => instab.IN0
+A => insg902.IN0
+A => inst3891.IN0
+A => inst903.IN0
+A => inst291.IN0
+A => inst45410.IN0
+A => inst5445.IN0
+B => inst1.IN0
+B => inst456.IN0
+B => ins6789t.IN1
+B => inst6789.IN0
+B => insg93.IN1
+B => inst3891.IN1
+B => inst903.IN1
+B => inst291.IN1
+B => inst45410.IN1
+B => inst1515.IN0
+B => inst43tt.IN1
+B => inst115.IN1
+B => inst0.IN1
+C => inst5.IN0
+C => instab.IN2
+C => inst6789.IN1
+C => insg902.IN1
+C => inst291.IN2
+C => inst58309.IN2
+C => inst575641.IN2
+C => inst2154.IN1
+C => inst1515.IN1
+C => inst5445.IN2
+C => inst0.IN2
+D => inst9.IN3
+D => inst6.IN0
+D => instab.IN3
+D => insg902.IN2
+D => insg93.IN3
+D => inst54520.IN2
+D => inst2154.IN2
+D => ins55t.IN3
+D => inst1515.IN2
+D => inst44566.IN1
+D => inst787.IN2
+D => inst0.IN3
+Fb_OUT <= inst8482.DB_MAX_OUTPUT_PORT_TYPE
+Fc_OUT <= inst9301.DB_MAX_OUTPUT_PORT_TYPE
+Ff_OUT <= inst839.DB_MAX_OUTPUT_PORT_TYPE
+Fd_OUT <= inst2910.DB_MAX_OUTPUT_PORT_TYPE
+Fe_OUT <= inst90201.DB_MAX_OUTPUT_PORT_TYPE
+Fg_OUT <= inst88.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Lab2:inst6
+Fa_OUT <= inst467.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => ins6789t.IN0
+A => instab.IN0
+A => insg902.IN0
+A => inst3891.IN0
+A => inst903.IN0
+A => inst291.IN0
+A => inst45410.IN0
+A => inst5445.IN0
+B => inst1.IN0
+B => inst456.IN0
+B => ins6789t.IN1
+B => inst6789.IN0
+B => insg93.IN1
+B => inst3891.IN1
+B => inst903.IN1
+B => inst291.IN1
+B => inst45410.IN1
+B => inst1515.IN0
+B => inst43tt.IN1
+B => inst115.IN1
+B => inst0.IN1
+C => inst5.IN0
+C => instab.IN2
+C => inst6789.IN1
+C => insg902.IN1
+C => inst291.IN2
+C => inst58309.IN2
+C => inst575641.IN2
+C => inst2154.IN1
+C => inst1515.IN1
+C => inst5445.IN2
+C => inst0.IN2
+D => inst9.IN3
+D => inst6.IN0
+D => instab.IN3
+D => insg902.IN2
+D => insg93.IN3
+D => inst54520.IN2
+D => inst2154.IN2
+D => ins55t.IN3
+D => inst1515.IN2
+D => inst44566.IN1
+D => inst787.IN2
+D => inst0.IN3
+Fb_OUT <= inst8482.DB_MAX_OUTPUT_PORT_TYPE
+Fc_OUT <= inst9301.DB_MAX_OUTPUT_PORT_TYPE
+Ff_OUT <= inst839.DB_MAX_OUTPUT_PORT_TYPE
+Fd_OUT <= inst2910.DB_MAX_OUTPUT_PORT_TYPE
+Fe_OUT <= inst90201.DB_MAX_OUTPUT_PORT_TYPE
+Fg_OUT <= inst88.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:instadd4b
+pin_name4 <= Add1Bit:inst.Cout
+A[0] => Add1Bit:inst3.A
+A[1] => Add1Bit:inst2.A
+A[2] => Add1Bit:inst1.A
+A[3] => Add1Bit:inst.A
+B[0] => Add1Bit:inst3.B
+B[1] => Add1Bit:inst2.B
+B[2] => Add1Bit:inst1.B
+B[3] => Add1Bit:inst.B
+Sum[0] <= Add1Bit:inst3.Sum
+Sum[1] <= Add1Bit:inst2.Sum
+Sum[2] <= Add1Bit:inst1.Sum
+Sum[3] <= Add1Bit:inst.Sum
+
+
+|TestAdder|Add4bit:instadd4b|Add1Bit:inst
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:instadd4b|Add1Bit:inst1
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:instadd4b|Add1Bit:inst2
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TestAdder|Add4bit:instadd4b|Add1Bit:inst3
+Sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst2.IN1
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+-- File: Lab3P3.vhd 
+-- Function: using a counter input, cycle through traffic lights pattens LR LY LG RR RY RG
+-- Engineer: 
+-- Last modified: Feb. 2022
+-- TBD: 
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Lab3P3 is
+
+port( 
+	count: in std_logic_vector ( 3 downto 0 );			-- 4-bit binary value input to give 16 cycles
+	lights: out std_logic_vector ( 5 downto 0 ) );		-- Traffic Lights: LR LY LG RR RY RG	
+end;
+
+architecture behav of Lab3P3 is
+					   
+begin
+	process (count)
+	begin
+		case count is
+--Start describe your traffic patterns below
+			when "0000" =>
+				lights <= "100001";			  --RG	active high
+-- Continue below for all the possible count values and lights patterns
+				
+
+
+
+		end case;
+	end process;
+end behav;
+
